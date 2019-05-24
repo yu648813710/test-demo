@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  class="hello"
+>
+  <p>
+    前列英雄
+  </p>
+   
+  <div
+    class="list_hero"
+  />
+</div>
+`;
+
+exports[`测试hello组件 1`] = `
+<div
+  class="hello"
+>
+  <p>
+    前列英雄
+  </p>
+   
+  <div
+    class="list_hero"
+  >
+    <div
+      class="item"
+    >
+      哈哈
+    </div>
+  </div>
+</div>
+`;
+
+exports[`测试hello组件 测试hello组件的dome节点渲染 1`] = `
+<div
+  class="hello"
+>
+  <p>
+    前列英雄
+  </p>
+   
+  <div
+    class="list_hero"
+  >
+    <div
+      class="item"
+    >
+      哈哈
+    </div>
+  </div>
+</div>
+`;

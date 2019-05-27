@@ -7,7 +7,7 @@
               英雄服务:{{item}}
           </p>
       </div>
-  </div>
+  </div> 
 </template>
 <script>
 export default {

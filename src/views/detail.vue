@@ -4,7 +4,7 @@
     <p>id：{{user.id}}</p>
     <div class="name">
       <p>姓名</p>
-      <div>
+      <div> 
         <input type="text" v-model="name">
       </div>
       <div class="button">
@@ -30,7 +30,6 @@ export default {
   methods: {
     //清除数据
     clearMsg() {
-      console.log(this.$store);
       this.$store.dispatch("clearMsgAct");
       this.storeData(); //赋值方法
     },

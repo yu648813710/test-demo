@@ -28,9 +28,12 @@
     "jest-serializer-vue": "^2.0.2",
     "sass": "^1.18.0",
     "sass-loader": "^7.1.0",
+    "sinon": "^7.3.2",
     "vue-template-compiler": "^2.5.21"
   },
   "jest": {
-    "snapshotSerializers": ["jest-serializer-vue"]
+    "snapshotSerializers": [
+      "jest-serializer-vue"
+    ]
   }
 }
